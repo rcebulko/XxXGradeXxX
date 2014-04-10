@@ -71,6 +71,26 @@ public class UserInterface {
         System.out.print("Enter your choice here --> ");
     }
     
+    private void printInformationMenu() {
+        System.out.println("This is the information menu.");
+        System.out.println("It provides all sorts of useful statistics.");
+        System.out.println("==== STUDENT ====");
+        System.out.println("[1] Current Grade");
+        System.out.println("==== ASSIGNMENT ====");
+        System.out.println("[2] Average Grade");
+        System.out.println("[3] Maxaximum");
+        System.out.println("[4] Median");
+        System.out.println("[5] Minimum");
+        System.out.print("Enter your numerical choice here --> ");
+    }
+    
+    private void printEditingMenu() {
+        System.out.println("This is the editing menu.");
+        System.out.println("It allows you to edit the content of the gradebook.");
+        System.out.println("[1] Change Grade");
+        System.out.print("Enter your numerical choice here --> ");
+    }
+    
     // HELPER FUNCTIONS FOR I/O
     /**
      * 
